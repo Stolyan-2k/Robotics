@@ -1,0 +1,12 @@
+ncdu /
+htop
+isof -i:
+sudo !!
+tree
+wget -c
+df -hT
+at
+alias 
+unalias
+cowsay
+
