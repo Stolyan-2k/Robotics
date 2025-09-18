@@ -1,0 +1,30 @@
+/Stolyan_
+  Subscribers:
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /turtle1/cmd_vel: geometry_msgs/msg/Twist
+  Publishers:
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /rosout: rcl_interfaces/msg/Log
+    /turtle1/color_sensor: turtlesim/msg/Color
+    /turtle1/pose: turtlesim/msg/Pose
+  Service Servers:
+    /Stolyan_/describe_parameters: rcl_interfaces/srv/DescribeParameters
+    /Stolyan_/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+    /Stolyan_/get_parameters: rcl_interfaces/srv/GetParameters
+    /Stolyan_/get_type_description: type_description_interfaces/srv/GetTypeDescription
+    /Stolyan_/list_parameters: rcl_interfaces/srv/ListParameters
+    /Stolyan_/set_parameters: rcl_interfaces/srv/SetParameters
+    /Stolyan_/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+    /clear: std_srvs/srv/Empty
+    /kill: turtlesim/srv/Kill
+    /reset: std_srvs/srv/Empty
+    /spawn: turtlesim/srv/Spawn
+    /turtle1/set_pen: turtlesim/srv/SetPen
+    /turtle1/teleport_absolute: turtlesim/srv/TeleportAbsolute
+    /turtle1/teleport_relative: turtlesim/srv/TeleportRelative
+  Service Clients:
+
+  Action Servers:
+    /turtle1/rotate_absolute: turtlesim/action/RotateAbsolute
+  Action Clients:
+
